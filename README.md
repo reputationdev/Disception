@@ -11,9 +11,6 @@ Disception.start("<webhook url>");
 
 For try/catch thingys do this:
 ```java
- try {
-    ArrayList<String> list = new ArrayList<>();
-    list.get(-1);
  } catch (Exception e) {
     Disception.exception(e);
 }
